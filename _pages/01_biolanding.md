@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Characters (Who We Are)
-permalink: /biolanding/
+permalink: /bio-landing/
 ---
 
 I'm going to put a collection of characters here, to mirror the collection of bios that will go on the real site.
