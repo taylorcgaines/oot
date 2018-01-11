@@ -1,13 +1,23 @@
+$darkblue: #021c27;
+$blue: #05668d;
+$darkteal: #028090;
+$teal: #00a896;
+$green: #02c39a;
+$paleyellow: #f0f3bd;
+$darkbrown: #424334;
+$blackish: #161712;
+
 $content-width: 800px;
-$main: #19CCAA;
+$main: $green;
 $font-style: 'Open Sans', sans-serif;
-$font-color: #262626;
-$link-color: #425469;
+$font-color: $blackish;
+$link-color: $darkteal;
 $link-hover-color: $main;
 $heading-font: 'Muli', sans-serif;
-$heading-font-color: #425469;
+$heading-font-color: $darkteal;
 $light: #E7EDF4;
-$header:  #1D1425;
+$header:  $darkblue;
+
 
 *,
 *::before,
@@ -15,4 +25,4 @@ $header:  #1D1425;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-} 
+}

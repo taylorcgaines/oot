@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Characters (Who We Are)
-permalink: /Characters/
+title: About
+permalink: /about/
 ---
 
 About content goes here.

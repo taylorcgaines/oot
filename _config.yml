@@ -1,12 +1,12 @@
 # Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
+title: OoT Fan Site
+email: taylorcgaines@gmail.com
 description: >
-  A guide to getting started with Jekyll.
-baseurl: "/startjekyll"
-url: "http://taniarascia.github.io"
-twitter_username: taniarascia
-github_username:  taniarascia
+  Ocarina of Time Pretend Site
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: ZeldaIsABoy
+github_username:  taylorcgaines
 # Build Settings
 sass:
   sass_dir: _sass
