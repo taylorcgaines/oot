@@ -1,0 +1,50 @@
+.accordion
+{
+    .accordion__wrapper
+    {
+        .accordion__list
+        {
+            .accordion__container
+            {
+                .accordion__item
+                {
+                    color: $blue;
+
+                    .accordion__content
+                    {
+                        top: 0;
+
+                        overflow: hidden;
+
+                        height: 0;
+
+                        opacity: 0;
+                    }
+                    &.active
+                    {
+                        padding-bottom: 65px;
+
+                        .accordion__title
+                        {
+                            top: 20px;
+                            &:before
+                            {
+                                transform: rotateZ(0deg);
+                            }
+                        }
+                        .accordion__content
+                        {
+
+                            position: relative;
+                            top: 40px;
+
+                            height: auto;
+
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<section class="accordion" data-aos="fade-right">
+    <div class="accordion__wrapper">
+        <div>
+            <h2>Relevant Sages</h2>
+            <div class="accordion__list">
+                <ul class="accordion__container">
+
+                    {% if craft.request.getSegment(1) == 'practice-areas' and craft.request.getSegment(2) %}
+                    {% for experience in entry.practiceAreaExperiences %}
+                    <li class="accordion__item"><div class="accordion__title">{{ experience.headline }}</div><div class="accordion__content">{{ experience.copy }}</div></li>
+                    {% endfor %}
+
+                    {% else %}
+
+                    {% for experience in contentBuilder.practiceAreaExperiences %}
+                    <li class="accordion__item"><div class="accordion__title">{{ experience.headline }}</div><div class="accordion__content"><p>{{ experience.copy }}</p></div></li>
+                    {% endfor %}
+                    {% endif %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
