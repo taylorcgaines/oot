@@ -16,3 +16,8 @@ kramdown:
 collections:
     characters:
         output: true
+plugins:
+  - jekyll-maps
+maps:
+  google:
+    api_key: AIzaSyC5qa4hgbi4lYCZspol4mf8hGN_v178hNs
